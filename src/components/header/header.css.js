@@ -14,7 +14,6 @@ export const Row = styled.div`
 display: flex;
 flex-flow: row wrap;
 width: 100%;
-margin-bottom: 20px;
 `
 export const HeaderContainer = styled.div`
 max-width: 1280px;
@@ -24,5 +23,19 @@ padding-top: 20px;
 padding-bottom: 20px;
 `
 export const StyledLink = styled.a`
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #647787;
+cursor: pointer;
+`
+
+export const NavRow = styled.div`
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+min-width: 350px;
+align-items: center;
 
 `

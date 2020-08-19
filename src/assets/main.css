@@ -562,6 +562,8 @@ embed,
 object {
   display: block;
   vertical-align: middle;
+  margin-top: auto;
+margin-bottom: auto;
 }
 
 /**
