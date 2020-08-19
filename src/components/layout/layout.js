@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../header/header'
 import SideBar from '../sidebar/sidebar';
 import styled from "styled-components";
+import DashBoard from "../dash/dashboard";
 
 const DashBoardContainer = styled.div`
 padding: 20px;
@@ -19,7 +20,7 @@ const Layout = () => {
                 </div>
                 <div className="w-full dash-bg">
                     <DashBoardContainer>
-                    
+                    <DashBoard />
                     </DashBoardContainer>
                 </div>
             </div>

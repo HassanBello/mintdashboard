@@ -51,7 +51,7 @@ display: flex;
 flex-flow: row wrap;
 font-style: normal;
 font-weight: normal;
-margin-bottom: 10px;
+margin-bottom: 15px;
 font-size: 15px;
 line-height: 15px;
 color: #647787;`
