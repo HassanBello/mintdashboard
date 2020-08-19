@@ -89,7 +89,7 @@ const SideBar = () => {
                                 <path d="M9 4.63635H13.3636" stroke="#647787" stroke-miterlimit="10" stroke-linejoin="round" />
                                 <path d="M6.09088 4.63635H7.54543" stroke="#647787" stroke-miterlimit="10" stroke-linejoin="round" />
                                 <path d="M9.9914 14.5909C10.0979 15.3094 10.4321 15.9799 10.9515 16.5H3.90909C3.27016 16.5 2.6574 16.2462 2.20561 15.7944C1.87356 15.4623 1.64845 15.0433 1.55245 14.5909H9.9914Z" fill="#647787" stroke="#647787" />
-                            </svg>&nbsp;All Orders
+                            </svg>&nbsp; All Orders
                     </Styles.SideBarLinkContainer>
                         <Styles.SideBarLinkContainer>
                             <svg width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -105,7 +105,7 @@ const SideBar = () => {
                                 <circle cx="15.5" cy="9.5" r="5" fill="white" stroke="#647787" />
                                 <path d="M16.875 6.75V12.25" stroke="#647787" stroke-width="0.75" />
                                 <path d="M14.125 6.75V12.25" stroke="#647787" stroke-width="0.75" />
-                            </svg>&nbsp;Pending Order
+                            </svg>&nbsp; Pending Order
                         </Styles.SideBarLinkContainer>
                         <Styles.SideBarLinkContainer>
                             <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">

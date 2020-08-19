@@ -1,6 +1,13 @@
 import React from 'react';
 import Header from '../header/header'
 import SideBar from '../sidebar/sidebar';
+import styled from "styled-components";
+
+const DashBoardContainer = styled.div`
+padding: 20px;
+margin-left: auto;
+margin-right: auto;
+`
 
 const Layout = () => {
     return (
@@ -10,8 +17,10 @@ const Layout = () => {
                 <div className="w-1/5">
                     <SideBar />
                 </div>
-                <div className="w-3/4">
-                    kjfjfd
+                <div className="w-full dash-bg">
+                    <DashBoardContainer>
+                    
+                    </DashBoardContainer>
                 </div>
             </div>
         </>

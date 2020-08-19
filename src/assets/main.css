@@ -579,6 +579,10 @@ video {
   height: auto;
 }
 
+.dash-bg{
+    background: #F7F8FA;
+}
+
 .container {
   width: 100%;
 }

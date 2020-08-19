@@ -22,7 +22,7 @@ export const SideBarSubCol = styled.div`
 width: 100%;
 display: flex;
 flex-flow: column wrap;
-padding: 11px 40px 11px 40px;
+padding: 11px 20px 11px 20px;
 `
 export const InvoiceButton = styled.button`
 background: #27AE60;
