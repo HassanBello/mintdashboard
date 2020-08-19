@@ -562,8 +562,6 @@ embed,
 object {
   display: block;
   vertical-align: middle;
-  margin-top: auto;
-margin-bottom: auto;
 }
 
 /**
@@ -577,10 +575,6 @@ img,
 video {
   max-width: 100%;
   height: auto;
-}
-
-.dash-bg{
-    background: #F7F8FA;
 }
 
 .container {

@@ -20,7 +20,16 @@ export const CardColumn = styled.div`
 display: flex;
 flex-flow: column wrap;
 padding-right: 5px;
+width: 60%;
 `
+
+export const GraphColumn = styled.div`
+display: flex;
+flex-flow: column wrap;
+width: 35%;
+height: 50px;
+`
+
 export const CardHeader = styled.div`
 font-family: Segoe UI;
 font-style: normal;
