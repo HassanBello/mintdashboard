@@ -6,21 +6,23 @@ flex-flow: column wrap;
 `
 export const SideBarLinkContainer = styled.div`
 width: 100%;
-text-align: center;
+text-align: left;
 font-family: Segoe UI;
 font-style: normal;
 font-weight: normal;
-font-size: 11px;
+font-size: 14px;
 line-height: 15px;
 color: #647787;
-padding: 10px;
+margin-top: 8px;
+margin-bottom: 8px;
+display: flex;
+flex-flow: row wrap;
 `
-export const SideBarGroup = styled.div`
+export const SideBarSubCol = styled.div`
 width: 100%;
 display: flex;
 flex-flow: column wrap;
-padding-left: 40px;
-padding-right: 40px;
+padding: 11px 40px 11px 40px;
 `
 export const InvoiceButton = styled.button`
 background: #27AE60;
@@ -36,4 +38,33 @@ padding: 11px 10px 11px 10px;
 `
 export const P20 = styled.div`
 padding: 20px;
+`
+export const P10 = styled.div`
+padding: 10px;
+`
+export const P5 = styled.div`
+padding: 5px;
+`
+
+export const SideBarHeader = styled.span`
+font-style: normal;
+font-weight: normal;
+margin-bottom: 10px;
+font-size: 15px;
+line-height: 15px;
+color: #647787;`
+
+export const ActiveSideWrapper = styled.div`
+width: 100%;
+background: rgba(24, 117, 240, 0.1);
+border-left: 3px solid #1875F0;
+font-size: 14px;
+line-height: 15px;
+color: #647787;
+`
+export const SideWrapper = styled.div`
+width: 100%;
+font-size: 14px;
+line-height: 15px;
+color: #647787;
 `
