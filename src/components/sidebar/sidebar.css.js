@@ -47,6 +47,8 @@ padding: 5px;
 `
 
 export const SideBarHeader = styled.span`
+display: flex;
+flex-flow: row wrap;
 font-style: normal;
 font-weight: normal;
 margin-bottom: 10px;
