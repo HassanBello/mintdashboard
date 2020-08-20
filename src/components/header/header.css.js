@@ -5,6 +5,9 @@ max-height: 89px;
 padding-top: 5px;
 background: #FFFFFF;
 box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
+position: relative;
+width: 100%;
+z-index: 10;
 `
 export const LogoWrapper = styled.img`
 background: #FFFFFF;
