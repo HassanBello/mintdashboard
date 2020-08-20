@@ -54,3 +54,8 @@ padding: 7.5px 3.5px 7.5px 3.5px;
    color: black;
  }
 `
+
+export const profileColumn = styled.div`
+display: flex;
+flex-flow: column wrap;
+`
