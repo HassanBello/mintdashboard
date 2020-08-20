@@ -1,7 +1,7 @@
 import React from 'react';
 import PaymentTable from './paymentTable';
 import * as Styles from './payment.css';
-import DropDown from '../../../utils/dropdown'
+import Dropdown from '../../../utils/dropdown';
 
 const Payment = (props) => {
     const tableData = [
@@ -34,44 +34,33 @@ const Payment = (props) => {
             status: "Reconciled"
         }
     ];
-    const location =[
+    const options = [
         {
             id: 0,
-            title: 'New York',
-            selected: false,
-            key: 'location'
+            title: 'All',
+            selected: true
         },
         {
-          id: 1,
-          title: 'Dublin',
-          selected: false,
-          key: 'location'
+            id: 1,
+            title: 'Reconciled',
+            selected: false
         },
         {
-          id: 2,
-          title: 'California',
-          selected: false,
-          key: 'location'
+            id: 2,
+            title: 'Un-Reconciled',
+            selected: false
         },
         {
-          id: 3,
-          title: 'Istanbul',
-          selected: false,
-          key: 'location'
+            id: 3,
+            title: 'Settled',
+            selected: false
         },
         {
-          id: 4,
-          title: 'Izmir',
-          selected: false,
-          key: 'location'
-        },
-        {
-          id: 5,
-          title: 'Oslo',
-          selected: false,
-          key: 'location'
+            id: 4,
+            title: 'Unettled',
+            selected: false
         }
-      ]
+    ]
     return (
         <>
             <div className="flex">
@@ -90,11 +79,32 @@ const Payment = (props) => {
                 <div className="w-1/2">
                     <Styles.StyledInput placeholder="Search Payments" />
                 </div>
-                <div className="w-1/4">
-                    <DropDown list={location} />
+                <div className="w-1/6 flex">
+                    <Styles.PaymentSub>
+                        Show
+                </Styles.PaymentSub>
+                    &nbsp;
+                    <Dropdown
+                        title="All"
+                        list={options}
+                    />
                 </div>
             </div>
             <PaymentTable data={tableData} />
+            <div className="flex">
+                <div className="w-1/2">
+                    <Styles.PaymentSub>
+                        Showing 1 to 10 of 500 Entries
+                </Styles.PaymentSub>
+                </div>
+                <div className="w-1/2">
+                    <div className="flex justify-end">
+                        <Styles.PaymentSub>
+                            Showing 1 to 10 of 500 Entries
+                </Styles.PaymentSub>
+                    </div>
+                </div>
+            </div>
         </>
     );
 
