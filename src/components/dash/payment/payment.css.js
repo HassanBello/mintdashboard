@@ -54,12 +54,15 @@ justify-content: center;
 max-width: 130px;
 color: ${props => {
     switch (props.color) {
-      case "pending":
+      case "Pending":
         return `#EBC315;;`;
-      case "reconciled":
+      case "Reconciled":
         return `#27AE60;`;
       default:
         return "#27AE60";
     }
   }};
+`
+export const TableInitialWarapper = styled.div`
+
 `
