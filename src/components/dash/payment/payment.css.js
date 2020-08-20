@@ -103,14 +103,6 @@ color: #787878;
 background: inherit;
 width: 336.5px;
 padding: 7.5px 3.5px 7.5px 3.5px;
-&:before {
-    content: "kjkj";
-    position: absolute;
-    margin-right: 10px;
-    left: 0;
-    color: #2b2e4a;
-    font-size: 19px;
- }
  ::placeholder,
  ::-webkit-input-placeholder {
    color: black;

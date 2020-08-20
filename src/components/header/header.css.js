@@ -36,5 +36,21 @@ flex-flow: row wrap;
 justify-content: space-around;
 min-width: 350px;
 align-items: center;
+`
 
+export const StyledInput = styled.input`
+
+font-size: 11px;
+line-height: 15px;
+color: #787878;
+background: inherit;
+width: 336.5px;
+padding: 7.5px 3.5px 7.5px 3.5px;
+ ::placeholder,
+ ::-webkit-input-placeholder {
+   color: black;
+ }
+ :-ms-input-placeholder {
+   color: black;
+ }
 `
