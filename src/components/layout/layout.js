@@ -8,6 +8,8 @@ const DashBoardContainer = styled.div`
 padding: 20px;
 margin-left: auto;
 margin-right: auto;
+background: #F7F8FA;
+height: 100%;
 `
 
 const Layout = () => {
@@ -18,7 +20,7 @@ const Layout = () => {
                 <div className="w-1/5">
                     <SideBar />
                 </div>
-                <div className="w-full dash-bg">
+                <div className="w-full">
                     <DashBoardContainer>
                     <DashBoard />
                     </DashBoardContainer>

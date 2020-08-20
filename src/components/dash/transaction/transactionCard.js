@@ -56,7 +56,7 @@ const TransactionCard = (props) => {
         <Styles.TransactionCard>
             <Styles.CardColumn>
                 <Styles.CardHeader>{props.title}</Styles.CardHeader>
-                <Styles.TransactionSub>1,570</Styles.TransactionSub>
+                <Styles.TransactionSub>{props.value}</Styles.TransactionSub>
             </Styles.CardColumn>
             <Styles.GraphColumn>
                 <canvas

@@ -9,18 +9,18 @@ border: 1px solid #EEF8FD;
 box-sizing: border-box;
 border-radius: 2px;
 justify-content: space-around;
+max-width: 250px;
 `
 export const TransactionGrid = styled.div`
 display: grid;
 grid-template-columns: 25% 25% 25% 25%;
-column-gap: 10px;
+column-gap: 5px;
 `
 
 export const CardColumn = styled.div`
 display: flex;
 flex-flow: column wrap;
-padding-right: 5px;
-width: 60%;
+
 `
 
 export const GraphColumn = styled.div`
