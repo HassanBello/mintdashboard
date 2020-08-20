@@ -9,6 +9,12 @@ box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07);
 export const LogoWrapper = styled.img`
 background: #FFFFFF;
 `
+export const ProfilePicWrapper = styled.img`
+background: #FFFFFF;
+max-width: 40px;
+max-height: 53px;
+border-radius: 50%;
+`
 
 export const Row = styled.div`
 display: flex;
@@ -58,4 +64,15 @@ padding: 7.5px 3.5px 7.5px 3.5px;
 export const profileColumn = styled.div`
 display: flex;
 flex-flow: column wrap;
+`
+export const ProfileSubTxt = styled.p`
+font-size: 10px;
+line-height: 13px;
+text-align: right;
+color: #647787;
+`
+export const ProfileName = styled.p`
+line-height: 19px;
+text-align: right;
+color: #647787;
 `
