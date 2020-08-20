@@ -61,3 +61,30 @@ content: '';
 width: ${props => props.width}%;
 border-bottom: 5px solid #FDC203;
 `
+export const SideCardSmallText = styled.span`
+font-size: 14px;
+line-height: 19px;
+color: #262626;
+`
+export const YellowTxt = styled.span`
+font-size: 14px;
+line-height: 19px;
+color: #FDC203;
+padding-left: 10px;
+font-weight: 900;
+`
+export const GreenTxt = styled.span`
+font-size: 14px;
+line-height: 19px;
+color: #27AE60;
+padding-left: 10px;
+font-weight: 900;
+`
+
+export const InfoTxt = styled.span`
+font-size: 14px;
+line-height: 19px;
+color: #0294FF;
+padding-left: 10px;
+font-weight: 900;
+`

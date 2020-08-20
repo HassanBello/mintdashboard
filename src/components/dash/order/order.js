@@ -7,13 +7,13 @@ const Order = () => {
     const data = [
         {
             title: 'Orders',
-            reconPay: 75,
+            reconPay: 750,
             unReconPay: 25
         },
         {
             title: 'Payments',
             reconPay: 65,
-            unReconPay: 35
+            unReconPay: 350
         }
     ]
     return (
