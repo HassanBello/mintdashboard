@@ -64,5 +64,12 @@ color: ${props => {
   }};
 `
 export const TableInitialWarapper = styled.div`
-
+background: #7F8FA4;
+width: 36px;
+padding: 7.5px 3.5px 7.5px 3.5px;
+color: #FFF;
+border-radius: 50%;
+font-size: 12px;
+text-align: center;
+margin-right: 15px;
 `

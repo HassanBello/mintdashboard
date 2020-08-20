@@ -32,7 +32,12 @@ const PaymentTable = (props) => {
                     return (
                         <Styles.TableRow>
                             <Styles.TableData color={"dark"}>
+                                <div className="flex"> 
+                                <Styles.TableInitialWarapper>
+                                    W
+                                </Styles.TableInitialWarapper>&nbsp;
                                 {item.itemType}
+                                </div>  
                             </Styles.TableData>
                             <Styles.TableData color={"light"}>
                                 {item.price}
