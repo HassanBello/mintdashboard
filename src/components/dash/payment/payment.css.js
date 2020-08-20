@@ -42,3 +42,24 @@ color: #7F8FA4;
 padding: 10px 10px 10px 10px;
 text-align: left;
 `
+export const StatusWrapper = styled.div`
+padding: 7.5px 3.5px 7.5px 3.5px;
+text-align: center;
+display: flex;
+flewx-flow: row wrap;
+border: 1px solid #CCCFD4;
+box-sizing: border-box;
+border-radius: 30px;
+justify-content: center;
+max-width: 130px;
+color: ${props => {
+    switch (props.color) {
+      case "pending":
+        return `#EBC315;;`;
+      case "reconciled":
+        return `#27AE60;`;
+      default:
+        return "#27AE60";
+    }
+  }};
+`

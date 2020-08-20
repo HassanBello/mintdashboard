@@ -10,13 +10,13 @@ const TransactionCard = (props) => {
 
     useEffect(() => {
         const myChartRef = chartRef.current.getContext("2d");
-        const { width: graphWidth, height: graphHeight } = myChartRef.canvas;
+        const { height: graphHeight } = myChartRef.canvas;
 
         let gradientLine = myChartRef
-            .createLinearGradient(0, 0, graphWidth, graphHeight);
-        gradientLine.addColorStop(0, "rgba(2, 148, 255, 0.0001)");
-        gradientLine.addColorStop(0.5, "rgba(2, 148, 255, 0.4)");
-        gradientLine.addColorStop(1, "rgba(2, 148, 255, 0.7)");
+            .createLinearGradient(0, 0, 0, graphHeight / 3.5);
+            gradientLine.addColorStop(0, "rgb(2, 148, 255)");
+            gradientLine.addColorStop(0.9191919191919192, "rgb(255, 255, 255)");
+            gradientLine.addColorStop(1, "rgb(255, 255, 255)");
         new Chart(myChartRef, {
             type: "line",
             data: {

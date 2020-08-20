@@ -8,13 +8,13 @@ const OrderGraph = (props) => {
 
     useEffect(() => {
         const myChartRef = chartRef.current.getContext("2d");
-        const { width: graphWidth, height: graphHeight } = myChartRef.canvas;
+        const { height: graphHeight } = myChartRef.canvas;
 
         let gradientLine = myChartRef
-            .createLinearGradient(0, 0, graphWidth, graphHeight);
-        gradientLine.addColorStop(0, "rgba(2, 148, 255, 0.5)");
-        gradientLine.addColorStop(0.5, "rgba(2, 148, 255, 0.5)");
-        gradientLine.addColorStop(1, "rgba(2, 148, 255, 0.5)");
+            .createLinearGradient(0, 0, 0, graphHeight * 1.5);
+        gradientLine.addColorStop(0, "rgb(2, 148, 255)");
+        gradientLine.addColorStop(0.9191919191919192, "rgb(255, 255, 255)");
+        gradientLine.addColorStop(1, "rgb(255, 255, 255)");
         new Chart(myChartRef, {
             type: "line",
             data: {
@@ -24,7 +24,7 @@ const OrderGraph = (props) => {
                         label: `Today ${new Date().toJSON().slice(0,10).replace(/-/g,'/')}`,
                         borderColor: "#0294FF",
                         backgroundColor: gradientLine,
-                        data: [12, 33, 55, 55, 69, 89]
+                        data: [65, 75, 75, 75, 79, 89]
                     }
                 ]
             },

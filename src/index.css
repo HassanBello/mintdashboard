@@ -10,6 +10,11 @@ code {
     monospace;
 }
 
+svg{
+  margin-top: auto;
+margin-bottom: auto;
+}
+
 .dash-bg{
   background: #F7F8FA;
 }
