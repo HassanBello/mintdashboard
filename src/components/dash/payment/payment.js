@@ -91,7 +91,7 @@ const Payment = (props) => {
                 </div>
             </div>
             <PaymentTable data={tableData} />
-            <div className="flex">
+            <div className="flex my-4">
                 <div className="w-1/2">
                     <Styles.PaymentSub>
                         Showing 1 to 10 of 500 Entries
@@ -99,9 +99,20 @@ const Payment = (props) => {
                 </div>
                 <div className="w-1/2">
                     <div className="flex justify-end">
-                        <Styles.PaymentSub>
-                            Showing 1 to 10 of 500 Entries
-                </Styles.PaymentSub>
+                        <Styles.PaginationWarpper>
+                        <Styles.PaginationItem>
+                            Previous
+                        </Styles.PaginationItem>
+                        <Styles.PaginationItem status={'Active'} >
+                            1
+                        </Styles.PaginationItem>
+                        <Styles.PaginationItem>
+                            2
+                        </Styles.PaginationItem>
+                        <Styles.PaginationItem>
+                            Next
+                        </Styles.PaginationItem>
+                        </Styles.PaginationWarpper>
                     </div>
                 </div>
             </div>

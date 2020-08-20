@@ -55,9 +55,9 @@ max-width: 130px;
 color: ${props => {
         switch (props.color) {
             case "Pending":
-                return `#EBC315;;`;
+                return `#EBC315`;
             case "Reconciled":
-                return `#27AE60;`;
+                return `#27AE60`;
             default:
                 return "#27AE60";
         }
@@ -118,4 +118,46 @@ padding: 7.5px 3.5px 7.5px 3.5px;
  :-ms-input-placeholder {
    color: black;
  }
+`
+export const PaginationItem = styled.div`
+padding: 10px 5px 10px 5px;
+border-right: 1px solid #CED0DA;
+box-sizing: border-box;
+text-align: center;
+border-radius: 2px;
+height: 100%;
+font-size: 13px;
+line-height: 17px;
+margin-top: auto;
+margin-bottom: auto;
+cursor: pointer;
+min-width: 31px;
+color:  ${props => {
+    switch (props.status) {
+        case "Active":
+            return `#FFF`;
+        default:
+            return "#000";
+    }
+}};
+background: ${props => {
+    switch (props.status) {
+        case "Active":
+            return `#1875F0`;
+        default:
+            return "inherit";
+    }
+}};
+&:nth-child(4) {
+    border-right: none;
+  }
+`
+export const PaginationWarpper = styled.div`
+padding: 0px 3.5px 0px 3.5px;
+border: 1px solid #CED0DA;
+box-sizing: border-box;
+border-radius: 2px;
+display: flex;
+flex-flow: row wrap;
+min-height: 30px;
 `
