@@ -12,7 +12,7 @@ const OrderGraph = (props) => {
 
         let gradientLine = myChartRef
             .createLinearGradient(0, 0, graphWidth, graphHeight);
-        gradientLine.addColorStop(1, "rgba(2, 148, 255, 0.5)");
+        gradientLine.addColorStop(0, "rgba(2, 148, 255, 0.5)");
         gradientLine.addColorStop(0.5, "rgba(2, 148, 255, 0.5)");
         gradientLine.addColorStop(1, "rgba(2, 148, 255, 0.5)");
         new Chart(myChartRef, {

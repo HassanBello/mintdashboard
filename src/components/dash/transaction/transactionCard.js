@@ -14,9 +14,9 @@ const TransactionCard = (props) => {
 
         let gradientLine = myChartRef
             .createLinearGradient(0, 0, graphWidth, graphHeight);
-        gradientLine.addColorStop(1, "rgba(2, 148, 255, 0.8)");
-        gradientLine.addColorStop(0.5, "rgba(2, 148, 255, 0.1)");
-        gradientLine.addColorStop(1, "rgba(2, 148, 255, 0.2)");
+        gradientLine.addColorStop(0, "rgba(2, 148, 255, 0.0001)");
+        gradientLine.addColorStop(0.5, "rgba(2, 148, 255, 0.4)");
+        gradientLine.addColorStop(1, "rgba(2, 148, 255, 0.7)");
         new Chart(myChartRef, {
             type: "line",
             data: {
