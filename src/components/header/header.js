@@ -16,7 +16,7 @@ const Header = () => {
                             </svg> &nbsp; <Styles.StyledInput placeholder={"Search..."} />
                         </Styles.Row>
                     </div>
-                    <div className="w-1/4  h-12">
+                    <div className="w-1/3  h-12">
                         <Styles.NavRow>
                             <Styles.StyledLink>
                                 Support
